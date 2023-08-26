@@ -1,0 +1,167 @@
+.main_section{
+    height:95vh;
+    width:98.5vw;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/header-image.png);
+    position:relative;
+   
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.navbar{
+    display:flex;
+    gap:50px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+   
+}
+
+.logo{
+    margin-left: 150px;
+    height:50px;
+    width:150px;
+}
+
+#language{
+    margin-left: 800px;
+    height:30px;
+    width:110px;
+    color:white;
+    background-color: black;
+    
+}
+
+.signin{
+    height:30px;
+    width:70px;
+    background-color: red;
+    color:white;
+    border-radius: 5%;
+}
+
+.main_content{
+    color:white;
+    position:absolute;
+    top:200px;
+    left:20vw;
+    text-align: center;
+}
+
+.header{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.description{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.25rem;
+}    
+
+#email{
+    height: 40px;
+    width:350px;
+    background-color: black;
+    border:1px solid white;
+    
+}
+
+#getstarted{
+    height: 45px;
+    width:  175px;
+    margin-left: 10px;
+    background-color: rgb(229,9,20);
+    color:white;
+}
+
+.rule{
+    background-color: #3C4048;
+    height:8px;
+}
+
+.section1{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.feature1{
+    height:400px;
+    width:600px;
+}
+
+.content1{
+    width:500px;
+    margin-top: 80px;
+    margin-left: 250px;
+
+}
+
+.content2{
+    width:650px;
+    margin-top: 80px;
+}
+
+.feature-2{
+    height: 400px;
+    width:550px;
+    margin-left: 120px;
+}
+
+.faqs{
+    
+    color:white;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.faq_button{
+    background-color: #3C4048;
+    height:80px;
+    width:80vw;
+    margin-left: 120px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.question{
+    position: absolute;
+    top:10px;
+    left:20px;
+}
+
+.mail_box{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer{
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-bottom: 100px;
+    color:white;
+}
+
+.footer_container{
+    display:flex;
+    gap:250px;
+}
+
+.language1{
+    height:30px;
+    width:110px;
+    color:white;
+    background-color: black;
+}
+
+.link{
+    color:white;
+}
